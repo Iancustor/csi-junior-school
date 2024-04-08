@@ -64,7 +64,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="bg-center  items-center justify-center  py-7 rounded-md border-transparent  h-[95vh] bg-gray-900    text-gray-100"
+              className="bg-center  items-center justify-center  py-7 rounded-md border-transparent  h-[85vh] bg-gray-900    text-gray-100"
             >
               <nav className="grid gap-6 text-lg font-bold">
                 <Link

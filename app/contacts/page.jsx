@@ -1,4 +1,5 @@
 import { Heading } from "@/components/Heading";
+import MapComponent from "@/components/MapComponent";
 import { Mail, Phone } from "lucide-react";
 import React from "react";
 
@@ -11,16 +12,16 @@ function page() {
         </div>
       </section>
       <section className="flex flex-col lg:flex-row lg:justify-evenly gap-6 lg:gap-20">
-        <div className="flex flex-col  gap-4 px-6">
+        <div className="flex flex-col  gap-8 px-6">
           <h2 className="font-bold text-2xl">LEAVE US YOUR INFO</h2>
-          <p className="lg:w-[55vw]">
+          <p className="lg:w-[45vw]">
             Connect with us at Christ Sanctuary International Junior School to
             embark on a transformative educational experience for your child.
             Discover our enriching curriculum, dedicated educators, and vibrant
             community. Together, let's inspire a love for learning and unlock
             your child's full potential. Admission awaits!
           </p>
-          <form action="#" id="contactForm" className="space-y-4 lg:w-[55vw]">
+          <form action="#" id="contactForm" className="space-y-4 lg:w-[45vw]">
             <div>
               <input
                 type="name"
@@ -64,29 +65,28 @@ function page() {
             </button>
           </form>
         </div>
-        <div className="flex flex-col  gap-8 px-6">
+        <div className="flex flex-col  gap-4 px-6">
           <div className="flex flex-col gap-2">
             <h2 className="font-bold text-2xl">OUR LOCATION</h2>
             <h2 className="">
               Kireka Hill <br />
-              Near Prime Radio <br />
-              Kampala Uganda
+              Near Prime Radio
             </h2>
-            <span className="  flex gap-4">
-              <Phone />
-              +256 702-983-617{" "}
-            </span>
-            <span className=" flex gap-4">
-              <Phone />
-              +256 704-442-850
-            </span>
             <span className="  flex gap-4">
               <Mail className="" />
               csijunioracademy@gmail.com
             </span>
+            <div className="flex gap-2">
+              <span className="  flex gap-4">
+                <Phone />
+                +256 702-983-617{" "}
+              </span>
+              <span className="">+256 704-442-850</span>
+            </div>
           </div>
-          <div>
+          <div className=" flex flex-col gap-3 px-4">
             <h2 className="font-bold text-2xl">MAP</h2>
+            <MapComponent width={"400"} height={"400"} />
           </div>
         </div>
       </section>
