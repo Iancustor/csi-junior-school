@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+
 function ActivityCard() {
   const activities = [
     {
@@ -26,7 +27,7 @@ function ActivityCard() {
         return (
           <div className="py-4 px-6 w-96 flex flex-col gap-5 items-center justify-center">
             <Image
-              className="w-96 h-64 border-gray-300 rounded-md border-2"
+              className="w-96 h-64 border-gray-300 rounded-md border-2 cursor-pointer"
               src={activity.img}
               alt={activity.title}
               height={1080}

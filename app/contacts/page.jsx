@@ -6,9 +6,10 @@ import React from "react";
 function page() {
   return (
     <div className="flex flex-col gap-8">
-      <section className="flex text-gray-100 bg-center bg-no-repeat items-center px-6 bg-cover  bg-[url('/images/csi0.jpg')] h-[50vh] bg-gray-400  bg-blend-multiply">
-        <div className="flex px-10">
-          <Heading heading={"Contact Us"} />
+   <section className="flex text-gray-100 bg-center bg-no-repeat items-center px-6 bg-cover  h-[40vh] bg-gray-900 bg-[url('/images/csi0.jpg')]  bg-blend-multiply">
+        <div className="flex flex-col gap-3 font-bold px-10">
+          <p>Talk To Us</p>
+          <h1 className="text-3xl  mb-6">CONTACT CSI </h1>
         </div>
       </section>
       <section className="flex flex-col lg:flex-row lg:justify-evenly gap-6 lg:gap-20">

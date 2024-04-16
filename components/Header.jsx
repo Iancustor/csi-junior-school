@@ -6,10 +6,10 @@ import Image from "next/image";
 export function Header() {
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "about" },
+    { name: "About CSI", href: "about" },
     { name: "Gallery", href: "gallery" },
     { name: "Admissions", href: "admissions" },
-    { name: "Contact Us", href: "contacts" },
+    { name: "Contact CSI", href: "contacts" },
   ];
   const mediaLinks = [
     { name: "Facebook", href: "#", img: "/images/facebook.png" },

@@ -1,11 +1,20 @@
 "use client";
 import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
-
+// import Autoplay from "embla-carousel-autoplay";
+import Modal from "@/components/Modal";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
+import { useState } from "react";
 
 export function CarouselPlugin() {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const openModal = (imageUrl) => {
+    setSelectedImage(imageUrl);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   React.useEffect(() => {
@@ -35,14 +44,20 @@ export function CarouselPlugin() {
               <Image
                 width={1080}
                 height={1080}
-                className="w-full h-full object-cover border-gray-300 rounded-md"
+                className="w-full h-full object-cover border-gray-300 rounded-md cursor-pointer"
                 src={imageUrl}
+                onClick={() => openModal(imageUrl)}
                 alt={`Image ${index + 1}`}
               />
             </CardContent>
           </Card>
         </div>
       ))}
+      <Modal
+        isOpen={!!selectedImage}
+        imageUrl={selectedImage}
+        onClose={closeModal}
+      />
     </div>
   );
 }
