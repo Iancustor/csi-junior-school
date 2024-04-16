@@ -7,7 +7,7 @@ const Modal = ({ isOpen, imageUrl, onClose }) => {
 
   return (
     <div className="fixed z-10 inset-0 overflow-y-auto flex justify-center items-center bg-black bg-opacity-90">
-      <div className="relative bg-white rounded-lg max-w-6xl">
+      <div className="relative bg-white rounded-lg lg:max-w-6xl">
         <button
           onClick={onClose}
           className="absolute top-0 right-0 m-4 text-gray-300 hover:text-gray-600"
@@ -19,7 +19,7 @@ const Modal = ({ isOpen, imageUrl, onClose }) => {
           height={1080}
           src={imageUrl}
           alt="Selected Image"
-          className="w-full h-[85vh] rounded-sm object-cover"
+          className="lg:w-full lg:h-[85vh] rounded-sm lg:object-cover"
         />
       </div>
     </div>
