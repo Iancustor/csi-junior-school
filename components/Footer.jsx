@@ -4,6 +4,9 @@ import Image from "next/image";
 import MapComponent from "./MapComponent";
 
 function FooterCompo() {
+  function getFullYear() {
+    return new Date().getFullYear();
+  }
   const mediaLinks = [
     { name: "Facebook", href: "#", img: "/images/facebook.png" },
     { name: "Twitter", href: "#", img: "/images/twitter.jpeg" },
@@ -24,10 +27,11 @@ function FooterCompo() {
                     className="flex   space-x-3 rtl:space-x-reverse"
                   >
                     <Image
-                      src=""
-                      className="w-8 rounded-md"
+                      src="/images/logo.jpg"
+                      className="w-8 "
                       alt="CSI Junior School-Logo"
                       width={1080}
+                      height={1080}
                     />
                     <span className="self-center text-2xl font-bold whitespace-nowrap text-white">
                       CSI JUNIOR SCHOOL
@@ -68,7 +72,7 @@ function FooterCompo() {
           <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
           <div className="sm:flex flex flex-col lg:flex-row gap-2 items-center justify-center  sm:items-center sm:justify-between">
             <span className="text-sm flex gap-2  sm:text-center text-gray-50">
-              <span className="flex ">2024</span>
+              <span className="flex "> {getFullYear()}</span>
               <Link href="/" className="hover:underline">
                 CSI JUNIOR SCHOOL
               </Link>

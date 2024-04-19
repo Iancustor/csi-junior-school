@@ -25,7 +25,12 @@ export function Header() {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold"
           >
-            <Image src="" className="h-6 w-6" width={1080} height={1080} />
+            <Image
+              src="/images/logo.jpg"
+              className="h-6 w-6"
+              width={1080}
+              height={1080}
+            />
             <span className="">CSI JUNOIR SCHOOL</span>
           </Link>
 
@@ -48,7 +53,12 @@ export function Header() {
             href="#"
             className="lg:hidden md:hidden flex items-center gap-2 text-lg font-semibold"
           >
-            <Image src="" className="h-6 w-6" width={1080} height={1080} />
+            <Image
+              src="/images/logo.jpg"
+              className="h-6 w-6"
+              width={1080}
+              height={1080}
+            />
             <span className="">CSI JUNIOR SCHOOL </span>
           </Link>
           <Sheet>
@@ -64,7 +74,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="bg-center  items-center justify-center  py-7 rounded-md border-transparent  h-[85vh] bg-gray-900    text-gray-100"
+              className="bg-center  items-center justify-center  py-7 rounded-md border-transparent  h-[100vh] bg-gray-900    text-gray-100"
             >
               <nav className="grid gap-6 text-lg font-bold">
                 <Link
@@ -72,7 +82,7 @@ export function Header() {
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
                   <Image
-                    src=""
+                    src="/images/logo.jpg"
                     className="h-6 w-6"
                     width={1080}
                     height={1080}

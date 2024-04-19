@@ -9,7 +9,7 @@ function MyComponent() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIsVisible((prevState) => !prevState);
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, []);
