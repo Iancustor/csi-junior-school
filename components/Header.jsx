@@ -12,14 +12,30 @@ export function Header() {
     { name: "Contact CSI", href: "contacts" },
   ];
   const mediaLinks = [
-    { name: "Facebook", href: "#", img: "/images/facebook.png" },
-    { name: "Twitter", href: "#", img: "/images/twitter.jpeg" },
-    { name: "Instagram", href: "#", img: "/images/instagram.jpeg" },
-    { name: "Youtube", href: "#", img: "/images/youtube.jpeg" },
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/csijuniorschools?mibextid=LQQJ4d",
+      img: "/images/facebook.png",
+    },
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/csijunior?igsh=MTcyeDZiMnkxd2t1dg==",
+      img: "/images/instagram.jpeg",
+    },
+    {
+      name: "Youtube",
+      href: "https://youtube.com/@csijuniorschool7102?si=ufyfvDghfpTidkta",
+      img: "/images/youtube.jpeg",
+    },
+    {
+      name: "TikTok",
+      href: "https://www.tiktok.com/@csijuniorschool?_t=8ll9q4fmcDt&_r=1",
+      img: "/images/tik.png",
+    },
   ];
   return (
-    <div className="">
-      <header className=" bg-gray-900 text-gray-100 sticky h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
+    <div className="relative">
+      <header className=" bg-gray-900 fixed text-gray-100 w-full overflow-hidden  h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <nav className=" hidden  flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6  lg:flex  items-center justify-between py-3 px-8">
           <Link
             href="#"

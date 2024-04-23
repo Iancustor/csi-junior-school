@@ -8,10 +8,27 @@ function FooterCompo() {
     return new Date().getFullYear();
   }
   const mediaLinks = [
-    { name: "Facebook", href: "#", img: "/images/facebook.png" },
-    { name: "Twitter", href: "#", img: "/images/twitter.jpeg" },
-    { name: "Instagram", href: "#", img: "/images/instagram.jpeg" },
-    { name: "Youtube", href: "#", img: "/images/youtube.jpeg" },
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/csijuniorschools?mibextid=LQQJ4d",
+      img: "/images/facebook.png",
+    },
+    // { name: "Twitter", href: "#", img: "/images/twitter.jpeg" },
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/csijunior?igsh=MTcyeDZiMnkxd2t1dg==",
+      img: "/images/instagram.jpeg",
+    },
+    {
+      name: "Youtube",
+      href: "https://youtube.com/@csijuniorschool7102?si=ufyfvDghfpTidkta",
+      img: "/images/youtube.jpeg",
+    },
+    {
+      name: "TikTok",
+      href: "https://www.tiktok.com/@csijuniorschool?_t=8ll9q4fmcDt&_r=1",
+      img: "/images/tik.png",
+    },
   ];
   return (
     <div>
@@ -45,7 +62,7 @@ function FooterCompo() {
                     Near Prime Radio
                   </h2>
                   <p className="font-semibold">0702983617 / 0704442850</p>
-                  <p className="font-semibold">csijunioracademy@gmail.com</p>
+                  <p className="font-semibold">csijuniorsch@gmail.com</p>
                 </div>
               </div>
               <div className="flex gap-4 items-start ">

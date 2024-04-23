@@ -33,7 +33,7 @@ function page() {
         </p>
         <p>Our pupils come from different parts of the world.</p>
       </section>
-      <section className="flex flex-col gap-20 text-gray-100 bg-center bg-no-repeat items-center py-60 mt-4 justify-center px-6  bg-cover  bg-[url('/images/csi0.jpg')] h-[50vh] bg-gray-400  bg-blend-multiply">
+      <section className="flex flex-col gap-20 text-gray-100 bg-center bg-no-repeat items-center py-60 mt-4 justify-center px-6  bg-cover  bg-[url('/images/csi2.jpg')] h-[50vh] bg-gray-800  bg-blend-multiply">
         <div className="flex  items-center justify-center flex-col">
           <h2 className="font-semibold">CSI VISION</h2>
           <p>

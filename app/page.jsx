@@ -9,7 +9,7 @@ import React from "react";
 function page() {
   return (
     <div className="flex flex-col gap-2">
-      <section className="flex text-gray-100 bg-center bg-no-repeat items-center justify-center bg-cover  bg-[url('/images/csi0.jpg')] h-[80vh] bg-gray-200  bg-blend-multiply">
+      <section className="flex text-gray-100 bg-center bg-no-repeat items-center justify-center bg-cover  bg-[url('/images/csi0.jpg')] h-[80vh] bg-gray-600  bg-blend-multiply">
         <HeroHead />
       </section>
       <div>
@@ -20,7 +20,7 @@ function page() {
           <div className=" ">
             <Image
               className="h-auto max-w-full lg:w-[40rem] rounded-sm"
-              src="/images/csi2.jpg"
+              src="/images/csilandscape.jpg"
               width={1080}
               height={1080}
               alt=""

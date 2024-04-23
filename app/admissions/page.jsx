@@ -116,7 +116,7 @@ function page() {
         <div className=" ">
           <Image
             className="h-72 max-w-full lg:w-[45vw] rounded-sm object-cover"
-            src="/images/csi2.jpg"
+            src="/images/csilandscape2.jpg"
             width={1080}
             height={1080}
             alt=""

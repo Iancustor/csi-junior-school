@@ -5,86 +5,270 @@ import Modal from "@/components/Modal"; // Import the Modal component
 function Page() {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const uniformImages = [
-    {
-      id: "1",
-      img: "/images/csi0.jpg",
-      title: "Image ",
-      author: "Author 1",
-    },
-    {
-      id: "2",
-      img: "/images/csi.jpg",
-      title: "Image ",
-      author: "Author 2",
-    },
-    {
-      id: "3",
-      img: "/images/csi2.jpg",
-      title: "Image ",
-      author: "Author 3",
-    },
-    { id: "4", img: "/images/csi4.jpg", title: "Image ", author: "Author 1" },
-    { id: "5", img: "/images/csi3.jpg", title: "Image ", author: "Author 2" },
-    {
-      id: "6",
-      img: "/images/csi4.jpg",
-      title: "Image ",
-      author: "Author 3",
-    },
-  ];
+  // const uniformImages = [
+  //   {
+  //     id: "1",
+  //     img: "/images/csi0.jpg",
+  //     title: "Image ",
+  //     author: "Author 1",
+  //   },
+  //   {
+  //     id: "2",
+  //     img: "/images/csi.jpg",
+  //     title: "Image ",
+  //     author: "Author 2",
+  //   },
+  //   {
+  //     id: "3",
+  //     img: "/images/csi2.jpg",
+  //     title: "Image ",
+  //     author: "Author 3",
+  //   },
+  //   { id: "4", img: "/images/csi4.jpg", title: "Image ", author: "Author 1" },
+  //   { id: "5", img: "/images/csi3.jpg", title: "Image ", author: "Author 2" },
+  //   {
+  //     id: "6",
+  //     img: "/images/csi4.jpg",
+  //     title: "Image ",
+  //     author: "Author 3",
+  //   },
+  // ];
   const curricularImages = [
     {
       id: "1",
-      img: "/images/csi.jpg",
+      img: "/images/mdd/mdd1.jpg",
       title: "Image ",
       author: "Author 1",
     },
     {
       id: "2",
-      img: "/images/csi0.jpg",
+      img: "/images/mdd/mdd2.jpg",
       title: "Image ",
       author: "Author 2",
     },
     {
       id: "3",
-      img: "/images/csi2.jpg",
+      img: "/images/mdd/mdd3.jpg",
       title: "Image ",
       author: "Author 3",
     },
-    { id: "4", img: "/images/csi4.jpg", title: "Image ", author: "Author 1" },
-    { id: "5", img: "/images/csi3.jpg", title: "Image ", author: "Author 2" },
+    {
+      id: "4",
+      img: "/images/mdd/mdd4.jpg",
+      title: "Image ",
+      author: "Author 1",
+    },
+    {
+      id: "5",
+      img: "/images/mdd/mdd5.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
     {
       id: "6",
-      img: "/images/csi3.jpg",
+      img: "/images/mdd/mdd11.jpg",
       title: "Image ",
       author: "Author 3",
+    },
+    {
+      id: "7",
+      img: "/images/mdd/mdd7.jpg",
+      title: "Image ",
+      author: "Author 1",
+    },
+    {
+      id: "8",
+      img: "/images/mdd/mdd8.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
+    {
+      id: "9",
+      img: "/images/mdd/mdd9.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
+    {
+      id: "10",
+      img: "/images/mdd/mdd10.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
+    // {
+    //   id: "11",
+    //   img: "/images/mdd/mdd6.jpg",
+    //   title: "Image ",
+    //   author: "Author 2",
+    // },
+    {
+      id: "12",
+      img: "/images/mdd/mdd12.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
+    {
+      id: "13",
+      img: "/images/mdd/mdd13.jpg",
+      title: "Image ",
+      author: "Author 2",
     },
   ];
   const tripImages = [
     {
       id: "1",
-      img: "/images/csi4.jpg",
+      img: "/images/trip/trip1.jpg",
       title: "Image ",
       author: "Author 1",
     },
     {
       id: "2",
-      img: "/images/csi0.jpg",
+      img: "/images/trip/trip2.jpg",
       title: "Image ",
       author: "Author 2",
     },
     {
       id: "3",
-      img: "/images/csi.jpg",
+      img: "/images/trip/trip3.jpg",
       title: "Image ",
       author: "Author 3",
     },
-    { id: "4", img: "/images/csi4.jpg", title: "Image ", author: "Author 1" },
-    { id: "5", img: "/images/csi3.jpg", title: "Image ", author: "Author 2" },
+    {
+      id: "4",
+      img: "/images/trip/trip4.jpg",
+      title: "Image ",
+      author: "Author 1",
+    },
+    {
+      id: "5",
+      img: "/images/trip/trip5.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
     {
       id: "6",
-      img: "/images/csi2.jpg",
+      img: "/images/trip/trip6.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "7",
+      img: "/images/trip/trip7.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "8",
+      img: "/images/trip/trip8.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "9",
+      img: "/images/trip/trip9.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "10",
+      img: "/images/trip/trip10.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "11",
+      img: "/images/trip/trip11.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "12",
+      img: "/images/trip/trip12.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+  ];
+  const poolImages = [
+    {
+      id: "1",
+      img: "/images/pool/pool1.jpg",
+      title: "Image ",
+      author: "Author 1",
+    },
+    {
+      id: "3",
+      img: "/images/pool/pool3.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "4",
+      img: "/images/pool/pool4.jpg",
+      title: "Image ",
+      author: "Author 1",
+    },
+    {
+      id: "5",
+      img: "/images/pool/pool5.jpg",
+      title: "Image ",
+      author: "Author 2",
+    },
+    {
+      id: "6",
+      img: "/images/pool/pool6.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "7",
+      img: "/images/pool/pool12.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "8",
+      img: "/images/pool/pool8.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "9",
+      img: "/images/pool/pool9.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "10",
+      img: "/images/pool/pool10.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "11",
+      img: "/images/pool/pool11.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "12",
+      img: "/images/pool/pool12.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "13",
+      img: "/images/pool/pool13.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "14",
+      img: "/images/pool/pool14.jpg",
+      title: "Image ",
+      author: "Author 3",
+    },
+    {
+      id: "15",
+      img: "/images/pool/pool7.jpg",
       title: "Image ",
       author: "Author 3",
     },
@@ -105,8 +289,8 @@ function Page() {
           <h1 className="text-3xl  mb-6"> GALLERY</h1>
         </div>
       </section>
-      <div className="flex flex-col gap-6 mt-4 px-2">
-        <section>
+      {/* <div className="flex flex-col gap-8 mt-6 px-2">
+        <section className="flex flex-col gap-3">
           <h2 className="text-xl font-semibold ">OUR UNIFORM</h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             {uniformImages.map((tile, index) => (
@@ -124,9 +308,9 @@ function Page() {
             ))}
           </div>
         </section>
-      </div>
-      <div className="flex flex-col gap-6 mt-4 px-2">
-        <section>
+      </div> */}
+      <div className="flex flex-col gap-8 mt-6 px-2">
+        <section className="flex flex-col gap-3">
           <h2 className="text-xl font-semibold "> CO-CURRICULAR </h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             {curricularImages.map((tile, index) => (
@@ -145,11 +329,31 @@ function Page() {
           </div>
         </section>
       </div>
-      <div className="flex flex-col gap-6 mt-4 px-2">
-        <section>
+      <div className="flex flex-col gap-8 mt-6 px-2">
+        <section className="flex flex-col gap-3">
           <h2 className="text-xl font-semibold ">SCHOOL TRIP </h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             {tripImages.map((tile, index) => (
+              <div
+                key={index}
+                className="border border-gray-200 rounded overflow-hidden"
+              >
+                <img
+                  src={tile.img}
+                  alt={tile.title}
+                  className="w-full h-auto cursor-pointer"
+                  onClick={() => openModal(tile.img)}
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+      <div className="flex flex-col gap-8 mt-6 px-2">
+        <section className="flex flex-col gap-3">
+          <h2 className="text-xl font-semibold uppercase">Swimming Pool </h2>
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+            {poolImages.map((tile, index) => (
               <div
                 key={index}
                 className="border border-gray-200 rounded overflow-hidden"

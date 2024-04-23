@@ -15,22 +15,12 @@ export function CarouselPlugin() {
   const closeModal = () => {
     setSelectedImage(null);
   };
-  const [currentIndex, setCurrentIndex] = React.useState(0);
-
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % 3); // Move one card after a minute
-    }, 60000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   const imageUrls = [
-    "/images/csi2.jpg",
-    "/images/csi.jpg",
     "/images/csi3.jpg",
     "/images/csi4.jpg",
-    "/images/csi.jpg",
+    "/images/csi1.jpg",
+    
   ];
 
   const limitedImageUrls = imageUrls.slice(0, 3);
