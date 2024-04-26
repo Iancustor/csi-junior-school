@@ -106,11 +106,11 @@ function page() {
             for your child's educational journey.
           </p>
           <Link
-            href="tel:+256 705801633"
+            href="tel:+256704442850"
             className="bg-black py-2 px-2 flex gap-2 text-white w-20 rounded-md items-center justify-center"
           >
             <Phone />
-            Call
+            Call Us
           </Link>
         </div>
         <div className=" ">
