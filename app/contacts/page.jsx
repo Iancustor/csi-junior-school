@@ -6,7 +6,7 @@ import React from "react";
 function page() {
   return (
     <div className="flex flex-col gap-8">
-   <section className="flex text-gray-100 bg-center bg-no-repeat items-center px-6 bg-cover  h-[40vh] bg-gray-900 bg-[url('/images/csi0.jpg')]  bg-blend-multiply">
+      <section className="flex text-gray-100 bg-center bg-no-repeat items-center px-6 bg-cover  h-[40vh] bg-gray-900 bg-[url('/images/csi0.jpg')]  bg-blend-multiply">
         <div className="flex flex-col gap-3 font-bold px-10">
           <p>Talk To Us</p>
           <h1 className="text-3xl  mb-6">CONTACT CSI </h1>
@@ -75,7 +75,7 @@ function page() {
             </h2>
             <span className="  flex gap-4">
               <Mail className="" />
-              csijunioracademy@gmail.com
+              csijuniorsch@gmail.com
             </span>
             <div className="flex gap-2">
               <span className="  flex gap-4">
@@ -87,7 +87,7 @@ function page() {
           </div>
           <div className=" flex flex-col gap-3 px-4">
             <h2 className="font-bold text-2xl">MAP</h2>
-            <MapComponent width={"400"} height={"400"} />
+            <MapComponent width={"100"} height={"400"} />
           </div>
         </div>
       </section>
