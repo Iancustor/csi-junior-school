@@ -7,7 +7,7 @@ function ActivityCard() {
     {
       img: "/images/csi5.jpg",
       title: "Our Facilities",
-      desc: " Our school facilities can house up to 555 students and cater for both males and females",
+      desc: "Our school facilities can accommodate a significant number of students, providing space for both male and female students",
     },
     {
       img: "/images/csi.jpg",

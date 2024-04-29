@@ -1,4 +1,4 @@
-import { Heading } from "@/components/Heading";
+
 import MapComponent from "@/components/MapComponent";
 import { Mail, Phone } from "lucide-react";
 import React from "react";
@@ -16,7 +16,7 @@ function page() {
         <div className="flex flex-col  gap-8 px-6">
           <h2 className="font-bold text-2xl">LEAVE US YOUR INFO</h2>
           <p className="lg:w-[45vw]">
-            Connect with us at Christ Sanctuary International Junior School to
+            Connect with us at CSI Junior School Kireka to
             embark on a transformative educational experience for your child.
             Discover our enriching curriculum, dedicated educators, and vibrant
             community. Together, let's inspire a love for learning and unlock
@@ -91,6 +91,7 @@ function page() {
           </div>
         </div>
       </section>
+   
     </div>
   );
 }

@@ -5,7 +5,7 @@ const Typed = () => (
   <ReactTyped
     startWhenVisible
     strings={[
-      "welcome To <strong>CHRIST SANCTUARY INTERNATIONAL DAY CARE</strong>,<strong>KINDERGARTEN , PRIMARY AND BOARDING  SCHOOL</strong> ! ! !",
+      "welcome To <strong>CSI Junior School Kireka</strong>,<strong> DAY CARE , KINDERGARTEN ,AND PRIMARY SCHOOL</strong> ! ! !",
     ]}
     typeSpeed={40}
   />

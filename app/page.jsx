@@ -27,11 +27,11 @@ function page() {
             />
           </div>
           <div className=" flex flex-col gap-6  justify-center w-[80%]  ">
-            <h2 className="font-semibold text-2xl">About The School</h2>
+            <h2 className="font-semibold text-2xl">About CSI</h2>
             <p className="text-[1.1rem]">
               {" "}
-              CSI Junior School and CSI day care are situated at Kireka hill,
-              Kinawataka road along CSI street consisting of kindergarten
+              CSI Junior School Kireka and CSI day care are situated at Kireka
+              hill, Kinawataka road along CSI street consisting of kindergarten
               section offerring programs for pre-school education to children
               aged 3 to 6 years and a primary section for students continuing
               up-to P.7.

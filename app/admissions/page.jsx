@@ -15,11 +15,10 @@ function page() {
       </section>
       <section className="flex flex-col gap-7 px-6 mt-4 justify-center">
         <p>
-          We are pleased that you are interested in Christ Sanctuary
-          International junior school.
+          We are pleased that you are interested in CSI Junior School Kireka.
         </p>
         <p>
-          At CSI Junior School, we believe in nurturing young minds and shaping
+          At CSI Junior School , we believe in nurturing young minds and shaping
           the leaders of tomorrow. Our commitment to excellence in education is
           unwavering, and we strive to provide a supportive and stimulating
           environment where every child can thrive
