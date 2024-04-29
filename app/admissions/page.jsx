@@ -106,10 +106,10 @@ function page() {
           </p>
           <Link
             href="tel:+256704442850"
-            className="bg-black py-2 px-2 flex gap-2 text-white w-20 rounded-md items-center justify-center"
+            className="bg-black py-2 px-2 flex text-sm gap-2 text-white w-20 rounded-md items-center justify-center"
           >
             <Phone />
-            Call Us
+            Call 
           </Link>
         </div>
         <div className=" ">
@@ -126,6 +126,8 @@ function page() {
         <h2 className="font-semibold text-xl">Why Choose CSI Junior School?</h2>
         <AccordionDemo />
       </section>
+
+    
     </div>
   );
 }

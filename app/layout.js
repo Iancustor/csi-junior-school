@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import Whatsup from "@/components/whatsup";
 import FooterCompo from "@/components/Footer";
+import Background from "@/components/Background";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="flex min-h-screen w-full flex-col lg:gap-4 lg:px-4">
+          <Background />
           <Header />
           {children}
           <Whatsup />
