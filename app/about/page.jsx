@@ -11,9 +11,9 @@ function page() {
       </section>
       <section className="flex flex-col gap-7 px-6 mt-4 justify-center">
         <p>
-          Christ Sanctuary International is a private, christian founded junior
+          CSI Juinor School Kireka  is a private, christian founded junior
           primary school, located in Kireka,Kinawataka road, just below prime radio.
-          It is a day school and baording school that offers the Ugandan
+          It is a school that offers the Ugandan
           national curriculum. In addition to the national curriculum, CSI
           Junior School incorporates unique progammes that enable our pupils to
           be disciplined, knowledgeable, confident, practical and responsible in
@@ -23,7 +23,7 @@ function page() {
           everyone can be a leader.
         </p>
         <p>
-          CSI Junior School and CSI daycare centre were founded in 2011 under a
+          CSI Junior School Kireka and CSI daycare centre were founded in 2011 under a
           christian foundation though children of all religions inclinations are
           admitted and well centred for. The school provides a unique learning
           experience for children aged two to thirteen years. Our curriculum

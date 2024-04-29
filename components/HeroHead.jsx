@@ -18,7 +18,7 @@ function MyComponent() {
     <div>
       {isVisible && (
         <div className="bg-gray-900 bg-opacity-50 w-[90%] lg:w-[85%] h-[50vh] p-8 flex flex-col  justify-center gap-5 rounded-tl-3xl rounded-br-3xl">
-          <Heading heading={"CHRIST SANCTUARY INTERNATIONAL"} />
+          <Heading heading={"CSI JUNIOR SCHOOL KIREKA"} />
           <Typed />
         </div>
       )}
