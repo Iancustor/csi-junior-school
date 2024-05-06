@@ -3,6 +3,16 @@ import { Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+export const metadata = {
+  title: "Admission",
+  description: "CSI Junior Academy",
+  alternates: {
+    canonical: "/admissions",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+};
 
 function page() {
   return (

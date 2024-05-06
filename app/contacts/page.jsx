@@ -2,6 +2,16 @@
 import MapComponent from "@/components/MapComponent";
 import { Mail, Phone } from "lucide-react";
 import React from "react";
+export const metadata = {
+  title: "Contact ",
+  description: "CSI Junior Academy",
+  alternates: {
+    canonical: "/contacts",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+};
 
 function page() {
   return (

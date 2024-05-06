@@ -1,5 +1,15 @@
 import React from "react";
-
+export const metadata = {
+  title: "About ",
+  description:
+    "CSI Junior School Kireka: Nurturing young minds. Call +256704442850. Motto: Train up a child..Proverbs 22:6",
+    alternates: {
+      canonical: "/about",
+      languages: {
+        "en-US": "/en-US",
+      },
+    },
+};
 function page() {
   return (
     <div>
@@ -12,26 +22,27 @@ function page() {
       <section className="flex flex-col gap-7 px-6 mt-4 justify-center">
         <p>
           CSI Junior School Kireka is a private, christian founded junior
-          primary school, located in Kireka,Kinawataka road, just below prime radio.
-          It is a school that offers the Ugandan
-          national curriculum. In addition to the national curriculum, CSI
-          Junior School incorporates unique progammes that enable our pupils to
-          be disciplined, knowledgeable, confident, practical and responsible in
-          a diverse and ever-changing world. CSI Junior School aspires to groom
-          the next generation of young leaders. We focus on establishing a
-          “whole-child” mindset with a belief that all pupils have genius and
-          everyone can be a leader.
+          primary school, located in Kireka,Kinawataka road, just below prime
+          radio. It is a school that offers the Ugandan national curriculum. In
+          addition to the national curriculum, CSI Junior School incorporates
+          unique progammes that enable our pupils to be disciplined,
+          knowledgeable, confident, practical and responsible in a diverse and
+          ever-changing world. CSI Junior School aspires to groom the next
+          generation of young leaders. We focus on establishing a “whole-child”
+          mindset with a belief that all pupils have genius and everyone can be
+          a leader.
         </p>
         <p>
-          CSI Junior School Kireka and CSI daycare centre were founded in 2011 under a
-          CSI Junior School Kireka and CSI daycare centre were founded in 2011 under a
-          christian foundation though children of all religions inclinations are
-          admitted and well centred for. The school provides a unique learning
-          experience for children aged two to thirteen years. Our curriculum
-          caters to a variety of co-curricular programmes that enable holistic
-          primary education. We provide an intellectually challenging learning
-          experience from which all learners can benefit. Our objective is that
-          each pupil should develop a deep interest in, and love for learning.
+          CSI Junior School Kireka and CSI daycare centre were founded in 2011
+          under a CSI Junior School Kireka and CSI daycare centre were founded
+          in 2011 under a christian foundation though children of all religions
+          inclinations are admitted and well centred for. The school provides a
+          unique learning experience for children aged two to thirteen years.
+          Our curriculum caters to a variety of co-curricular programmes that
+          enable holistic primary education. We provide an intellectually
+          challenging learning experience from which all learners can benefit.
+          Our objective is that each pupil should develop a deep interest in,
+          and love for learning.
         </p>
         <p>Our pupils come from different parts of the world.</p>
       </section>
@@ -46,7 +57,7 @@ function page() {
         <div className="flex  items-center justify-center flex-col">
           <h2 className="font-semibold">CSI MISSION</h2>
           <p>
-            "To provide a sustainable hlistic education resulting in academic
+            "To provide a sustainable holistic education resulting in academic
             excellence and a balanced God fearing individual able to meet the
             challenges of a modern society"
           </p>

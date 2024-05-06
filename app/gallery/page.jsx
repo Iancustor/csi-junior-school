@@ -2,6 +2,17 @@
 import React, { useState } from "react";
 import Modal from "@/components/Modal"; // Import the Modal component
 
+export const metadata = {
+  title: "Gallery ",
+  description: "CSI Junior Academy",
+  alternates: {
+    canonical: "/gallery",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+};
+
 function Page() {
   const [selectedImage, setSelectedImage] = useState(null);
 
