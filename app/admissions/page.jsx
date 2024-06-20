@@ -23,19 +23,49 @@ function page() {
           <h1 className="text-3xl  mb-6">ADMISSION </h1>
         </div>
       </section>
-      <section className="flex flex-col gap-7 px-6 mt-4 justify-center">
-        <p>
-          We are pleased that you are interested in CSI Junior School Kireka.
-        </p>
-        <p>
-          At CSI Junior School , we believe in nurturing young minds and shaping
-          the leaders of tomorrow. Our commitment to excellence in education is
-          unwavering, and we strive to provide a supportive and stimulating
-          environment where every child can thrive
-        </p>
-        <p>Our pupils come from different parts of the world.</p>
-      </section>
-      <section className="flex flex-col gap-8 px-6 mt-4 justify-center">
+      <div className="lg:max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 ">
+        {/* <!-- Grid /--> */}
+        <div className="justify-center flex lg:gap-40 gap-6 flex-col lg:flex-row  ">
+          <div className="lg:relative lg:ms-4 z-0">
+            <Image
+              height={1080}
+              width={1080}
+              className="w-[150vw]"
+              src="/images/csiadmission.jpg"
+              alt="Image Description"
+            />
+          </div>{" "}
+          <section className="flex flex-col gap-7 lg:px-6 justify-center p-3 bg-gradient-to-b from-sky-200 via-sky-100 to-sky-100 bg-opacity-10">
+            <div className="flex flex-col  justify-center  lg:justify-start">
+              <h1 className=" block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight dark:text-white">
+                How To Apply
+              </h1>
+              <p>
+                At CSI Junior School, we offer a holistic education focused on
+                academics, arts, sports, and character building. Ongoing
+                Admissions ! Our simple process includes an application,
+                interview, and enrollment. Our experienced faculty and modern
+                facilities provide a nurturing, inclusive environment. Contact
+                Us and Join CSI Junior School today ,We look forward to
+                welcoming you!
+              </p>
+            </div>{" "}
+            <p>
+              We are pleased that you are interested in CSI Junior School
+              Kireka.
+            </p>
+            <p>
+              At CSI Junior School , we believe in nurturing young minds and
+              shaping the leaders of tomorrow. Our commitment to excellence in
+              education is unwavering, and we strive to provide a supportive and
+              stimulating environment where every child can thrive
+            </p>
+            <p>Our pupils come from different parts of the world.</p>
+          </section>
+        </div>
+      </div>
+
+      <section className="flex flex-col gap-8 px-6 mt-4 justify-center ">
         <div className="flex flex-col gap-4">
           {" "}
           <h2 className="font-semibold text-2xl">Admission Information</h2>
@@ -81,7 +111,7 @@ function page() {
               href="/pdf/applicationForm.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-700"
+              className="text-slate-700"
             >
               {" "}
               CSI Admission Form
@@ -90,7 +120,7 @@ function page() {
               href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-700"
+              className="text-slate-700"
             >
               CSI Medical Form
             </Link>
@@ -98,15 +128,15 @@ function page() {
               href="/pdf/csiRules.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-700"
+              className="text-slate-700"
             >
               CSI School Rules
             </Link>
           </div>
         </div>
       </section>
-      <div className="px-8 flex flex-col gap-4 mt-8 lg:flex-row lg:justify-between ">
-        <div className="flex flex-col gap-8 ">
+      <div className="px-8 flex flex-col gap-4 mt-8 lg:flex-row lg:justify-between  ">
+        <div className="flex flex-col gap-8  ">
           <h2 className="font-semibold text-2xl">Schedule a Visit</h2>
           <p className="lg:w-96">
             We invite you to schedule a visit to experience the vibrant
@@ -119,7 +149,7 @@ function page() {
             className="bg-black py-2 px-2 flex text-sm gap-2 text-white w-20 rounded-md items-center justify-center"
           >
             <Phone />
-            Call 
+            Call
           </Link>
         </div>
         <div className=" ">
@@ -136,8 +166,6 @@ function page() {
         <h2 className="font-semibold text-xl">Why Choose CSI Junior School?</h2>
         <AccordionDemo />
       </section>
-
-    
     </div>
   );
 }

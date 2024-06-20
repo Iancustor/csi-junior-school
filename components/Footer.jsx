@@ -59,7 +59,7 @@ function FooterCompo() {
                   <h2 className="">Reach us at our Campus</h2>
                   <h2 className="">
                     Kireka Hill <br />
-                    Near Prime Radio
+                    Along CSI street
                   </h2>
                   <p className="font-semibold">0702983617 / 0704442850</p>
                   <p className="font-semibold">csijuniorsch@gmail.com</p>
@@ -83,7 +83,7 @@ function FooterCompo() {
             </div>
             <div className=" flex flex-col gap-3 px-4">
               <h2 className="font-bold text-2xl">Directions</h2>
-              <MapComponent   height={"300"} />
+              <MapComponent height={"300"} />
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />

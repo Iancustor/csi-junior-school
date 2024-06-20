@@ -2,17 +2,6 @@
 import React, { useState } from "react";
 import Modal from "@/components/Modal"; // Import the Modal component
 
-// export const metadata = {
-//   title: "Gallery ",
-//   description: "CSI Junior Academy",
-//   alternates: {
-//     canonical: "/gallery",
-//     languages: {
-//       "en-US": "/en-US",
-//     },
-//   },
-// };
-
 function Page() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -419,7 +408,7 @@ function Page() {
   };
 
   return (
-    <div>
+    <div className="bg-sky-100 bg-opacity-10">
       <section className="flex text-gray-100 bg-center bg-no-repeat items-center px-6 bg-cover  h-[40vh] bg-gray-700 bg-[url('/images/csi0.jpg')]  bg-blend-multiply">
         <div className="flex flex-col gap-3 font-bold px-10">
           <p>CSI Gallery</p>

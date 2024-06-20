@@ -49,7 +49,7 @@ function page() {
       <div className="flex flex-col gap-3 items-center justify-center lg:items-start">
         <div className="flex flex-col gap-1">
           <h2 className="font-bold text-2xl ">In Our Gallery</h2>
-          <Link href="gallery " className="underline text-red-600">
+          <Link href="gallery " className="underline text-sky-500">
             View All
           </Link>
         </div>

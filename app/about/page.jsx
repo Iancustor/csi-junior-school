@@ -3,12 +3,12 @@ export const metadata = {
   title: "About ",
   description:
     "CSI Junior School Kireka: Nurturing young minds. Call +256704442850. Motto: Train up a child..Proverbs 22:6",
-    alternates: {
-      canonical: "/about",
-      languages: {
-        "en-US": "/en-US",
-      },
+  alternates: {
+    canonical: "/about",
+    languages: {
+      "en-US": "/en-US",
     },
+  },
 };
 function page() {
   return (
@@ -48,14 +48,7 @@ function page() {
       </section>
       <section className="flex flex-col gap-20 text-gray-100 bg-center bg-no-repeat items-center py-60 mt-4 justify-center px-6  bg-cover  bg-[url('/images/csi2.jpg')] h-[50vh] bg-gray-800  bg-blend-multiply">
         <div className="flex  items-center justify-center flex-col">
-          <h2 className="font-semibold">CSI VISION</h2>
-          <p>
-            "Christ Our Foundation, Character our priority and community our
-            responsibility"
-          </p>
-        </div>
-        <div className="flex  items-center justify-center flex-col">
-          <h2 className="font-semibold">CSI MISSION</h2>
+          <h2 className="font-semibold text-sky-300">CSI MISSION</h2>
           <p>
             "To provide a sustainable holistic education resulting in academic
             excellence and a balanced God fearing individual able to meet the
@@ -63,7 +56,14 @@ function page() {
           </p>
         </div>
         <div className="flex  items-center justify-center flex-col">
-          <h2 className="font-semibold">CSI MOTTO</h2>
+          <h2 className="font-semibold text-sky-300">CSI VISION</h2>
+          <p>
+            "Christ Our Foundation, Character our priority and community our
+            responsibility"
+          </p>
+        </div>
+        <div className="flex  items-center justify-center flex-col">
+          <h2 className="font-semibold text-sky-300">CSI MOTTO</h2>
           <p>"Train up a child... (proverbs:22:6)"</p>
         </div>
       </section>

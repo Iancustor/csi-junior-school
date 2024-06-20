@@ -34,7 +34,7 @@ export function Header() {
     },
   ];
   return (
-    <div className="relative">
+    <div className="relative z-50 ">
       <header className=" bg-gray-900 fixed text-gray-100 w-full overflow-hidden  h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <nav className=" hidden  flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6  lg:flex  items-center justify-between py-3 px-8">
           <Link
